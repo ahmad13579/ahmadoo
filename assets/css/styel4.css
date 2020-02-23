@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+body{
+margin: 0;
+width: 90%;
+margin: 0 auto;
+font-family: 'Karla' ;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav {
+    display: flex;
+    flex-direction: column;
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 3em;
+    margin: 0;
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+color: slategrey;
+}
+.one  p{
+    color: slategrey;
+}
+.one span{
+    display: flex;
+    justify-content: flex-end;
+}
+.one{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.two span{
+    display: flex;
+    justify-content: flex-end;
+}
+.two p{
+    color: slategrey;
+} 
+.three p{
+    color: slategrey;
+}
+.three span{
+    display: flex;
+    justify-content: flex-end;
+}
+.three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.four span{
+    display: flex;
+    justify-content: flex-end;
+}
+.four p{
+    color: slategrey;
+}
+      
+.five p{
+        color: slategrey;
+    }
+.five span{
+        display: flex;
+        justify-content: flex-end;
+    }
+.five{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+.six span{
+        display: flex;
+        justify-content: flex-end;
+    }
+.six p{
+        color: slategrey;
+    }   
+
+.seven p{
+        color: slategrey;
+    }
+.seven span{
+        display: flex;
+        justify-content: flex-end;
+    }
+.seven{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+.eightspan{
+        display: flex;
+        justify-content: flex-end;
+    }
+.eight p{
+        color: slategrey;
+    } 
+.nine p{
+            color: slategrey;
+        }
+.nine span{
+            display: flex;
+            justify-content: flex-end;
+        }
+.nine{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(1,1fr);
+            grid-gap: 20px;
+        } 
+
+        .ten{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(1,1fr);
+           margin-top: 200px;
+        
+        }
+        
